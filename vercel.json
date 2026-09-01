@@ -1,0 +1,12 @@
+{
+  "buildCommand": "node build.mjs",
+  "devCommand": "npm run dev",
+  "installCommand": "npm ci",
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_VERCEL_ENV": "@vercel-env",
+    "CI": "true"
+  },
+  "nodeVersion": "22.x",
+  "framework": "nextjs"
+}
