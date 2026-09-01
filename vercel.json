@@ -1,7 +1,6 @@
 {
   "buildCommand": "node build.mjs",
   "devCommand": "npm run dev",
-  "installCommand": "npm ci",
-  "outputDirectory": ".next",
-  "framework": "nextjs"
+  "installCommand": "npm install",
+  "outputDirectory": "dist"
 }
